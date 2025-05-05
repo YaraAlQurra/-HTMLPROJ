@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  <title>  !لولو كافيه   </title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: beige;
+      color: brown;
+      text-align: center;
+      direction: rtl;
+    }
+    header {
+      background-color: brown;
+      color: white;
+      padding: 20px;
+    }
+    img {
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+    .main-img {
+      width: 300px;
+    }
+    .menu-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+    th, td {
+      border: 1px solid #8B4513;
+      padding: 10px;
+      text-align: center;
+    }
+    form {
+      background-color: pink;
+      width: 50%;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    input, textarea {
+      width: 90%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    .icon {
+      width: 25px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>أهلاً وسهلاً في كافيه لولو</h1>
+    <p>قهوتك... بنكهة الحب!</p>
+  </header>
+
+  <img src="https://www.pinterest.com/pin/8092474325825330/"  alt="صورة الكافيه"  width= 488  height = 310>
+
+  <h2>Menu:</h2>
+  <table>
+    <tr>
+      <th>Photo</th>
+      <th>Item</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td><img src="https://www.pinterest.com/pin/98938523058806781/" alt="قهوة تركي" class="menu-img"></td>
+      <td>قهوة تركي</td>
+      <td>1.00 JoD</td>
+    </tr>
+    <tr>
+      <td><img src="https://www.pinterest.com/pin/70437489712032/" alt="لاتيه" class="menu-img"></td>
+      <td>لاتيه</td>
+      <td>1.50 JoD</td>
+    </tr>
+    <tr>
+      <td><img src="https://www.pinterest.com/pin/67483694411594304/" alt="كروسان جبنة" class="menu-img"></td>
+      <td>كروسان جبنة</td>
+      <td>1.25 JoD</td>
+    </tr>
+  </table>
+
+  <h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt=" طاولة" , class='icon' >
+    احجز طاولتك
+  </h2>
+
+  <form>
+    <label>الاسم:</label><br>
+    <input type="text" placeholder="اسمك الكامل"><br>
+
+    <label>عدد الأشخاص:</label><br>
+    <input type="number" placeholder="مثلاً: 2"><br>
+
+    <label>ملاحظات:</label><br>
+    <textarea rows="3" placeholder="إذا عندك طلب خاص"></textarea><br>
+
+    <button type="submit">احجز الآن</button>
+  </form>
+
+  <h3>جرب تضغط الزر تحت!</h3>
+  <button onclick="alert('أهلاً وسهلاً! اشتقنالك بكافيه لولو!')">اضغطني </button>
+   
+
+
+</body>
+</html>

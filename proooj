@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>SomeExample Café</title>
+  <style>
+    body {
+      font-family: 'Arial', sans-serif;
+      background-color: beige;
+      color: brown;
+      text-align: center;
+    }
+    header {
+      background-color: brown;
+      color: white;
+      padding: 20px;
+    }
+    img {
+      border-radius: 10px;
+      margin: 10px 0;
+    }
+    .main-img {
+      width: 300px;
+    }
+    .menu-img {
+      width: 80px;
+      height: 80px;
+      object-fit: cover;
+      border-radius: 8px;
+    }
+    table {
+      margin: 20px auto;
+      border-collapse: collapse;
+      width: 80%;
+    }
+    th, td {
+      border: 1px solid #8B4513;
+      padding: 10px;
+      text-align: center;
+    }
+    form {
+      background-color: pink;
+      width: 50%;
+      margin: 30px auto;
+      padding: 20px;
+      border-radius: 10px;
+      box-shadow: 0 0 10px #ccc;
+    }
+    input, textarea {
+      width: 90%;
+      padding: 10px;
+      margin-top: 10px;
+      border: 1px solid #ccc;
+      border-radius: 5px;
+    }
+    button {
+      background-color: green;
+      color: white;
+      padding: 10px 20px;
+      border: none;
+      border-radius: 5px;
+      margin-top: 15px;
+      cursor: pointer;
+    }
+    .icon {
+      width: 25px;
+      vertical-align: middle;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Welcome to SomeExample Café</h1>
+    <p>Your coffee, brewed with love.</p>
+  </header>
+
+  <img src="https://via.placeholder.com/488x310" alt="Café Main Image" width="488" height="310">
+
+  <h2>Menu</h2>
+  <table>
+    <tr>
+      <th>Photo</th>
+      <th>Item</th>
+      <th>Price</th>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80" alt="Turkish Coffee" class="menu-img"></td>
+      <td>Turkish Coffee</td>
+      <td>1.00 JOD</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80" alt="Latte" class="menu-img"></td>
+      <td>Latte</td>
+      <td>1.50 JOD</td>
+    </tr>
+    <tr>
+      <td><img src="https://via.placeholder.com/80" alt="Cheese Croissant" class="menu-img"></td>
+      <td>Cheese Croissant</td>
+      <td>1.25 JOD</td>
+    </tr>
+  </table>
+
+  <h2>
+    <img src="https://cdn-icons-png.flaticon.com/512/3595/3595455.png" alt="Table Icon" class="icon">
+    Reserve Your Table
+  </h2>
+
+  <form>
+    <label for="name">Full Name:</label><br>
+    <input type="text" id="name" name="name" placeholder="Your full name" required><br>
+
+    <label for="guests">Number of Guests:</label><br>
+    <input type="number" id="guests" name="guests" placeholder="e.g., 2" required><br>
+
+    <label for="notes">Notes:</label><br>
+    <textarea id="notes" name="notes" rows="3" placeholder="Any special requests?"></textarea><br>
+
+    <button type="submit">Reserve Now</button>
+  </form>
+
+  <h3>Try clicking the button below!</h3>
+  <button onclick="alert('Welcome! We missed you at SomeExample Café!')">Click Me</button>
+
+</body>
+</html>
